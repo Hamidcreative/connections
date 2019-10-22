@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "*"
+mysqlclient = {path = "./mysqlclient-1.4.2-cp36-cp36m-win32.whl"}
+django-mysql = "*"
+social-auth-app-django = "*"
+stripe = "*"
+
+[requires]
+python_version = "3.6"
