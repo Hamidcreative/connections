@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 django = "*"
- 
+mysqlclient = {path = "./mysqlclient-1.4.2-cp36-cp36m-win32.whl"}
 django-mysql = "*"
 social-auth-app-django = "*"
 stripe = "*"
