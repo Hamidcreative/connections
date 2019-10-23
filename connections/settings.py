@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'an54y#*r1w3($cvwbt(g$lor3y#*nbgn&($=zv)o=ys^)@(l3p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 #ALLOWED_HOSTS = [] # for local server
 ALLOWED_HOSTS = ["*"]  # for live server django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com
