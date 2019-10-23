@@ -28,7 +28,8 @@ SECRET_KEY = 'an54y#*r1w3($cvwbt(g$lor3y#*nbgn&($=zv)o=ys^)@(l3p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = [] # for local server
+ALLOWED_HOSTS = ['django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com']  # for live server
 
 
 # Application definition
@@ -84,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'connections',
         'USER': 'postgres',
-        # 'PASSWORD': 'postgres',
+        #'PASSWORD': 'postgres',
         'PASSWORD': 'develop12',
         'HOST': 'localhost',
         'PORT': '5432',
@@ -112,8 +113,10 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 
-SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '77022qk4cbxhhw'  # Client ID
-SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = '0xxQLFbzRNqFboAS'  # Client Secret
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '77022qk4cbxhhw'  # Client ID
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = '0xxQLFbzRNqFboAS'  # Client Secret
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '864pufv3fg04g5'  # Client ID
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'Q6wBibipFZigppPX'  # Client Secret
 SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_liteprofile', 'r_emailaddress','w_member_social']
 SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address','positions', 'headline','summary','picture-url','site-standard-profile-request','public-profile-url','location','interests','skills','languages',]
 SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
