@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+            <state relative-caret-position="320">
+              <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/linkedin/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="e#2#57#0" expanded="true" />
               </folding>
@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/connections/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#227#236#0" expanded="true" />
               </folding>
@@ -161,10 +161,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="200" />
-    <option name="y" value="107" />
-    <option name="width" value="1200" />
-    <option name="height" value="646" />
+    <option name="x" value="347" />
+    <option name="y" value="34" />
+    <option name="width" value="966" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,6 +178,11 @@
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -386,7 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571861346913</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="initial commit">
+      <created>1571861491833</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1571861491833</updated>
+    </task>
+    <task id="LOCAL-00026" summary="initial commit">
+      <created>1571861954307</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1571861954307</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -716,7 +735,7 @@
     <entry file="file://$PROJECT_DIR$/linkedin/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="e#2#57#0" expanded="true" />
           </folding>
@@ -733,7 +752,7 @@
     <entry file="file://$PROJECT_DIR$/connections/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#227#236#0" expanded="true" />
           </folding>
@@ -742,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/connections/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="165" column="34" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+        <state relative-caret-position="320">
+          <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
         </state>
       </provider>
     </entry>
