@@ -29,7 +29,7 @@ SECRET_KEY = 'an54y#*r1w3($cvwbt(g$lor3y#*nbgn&($=zv)o=ys^)@(l3p'
 DEBUG = True
 
 #ALLOWED_HOSTS = [] # for local server
-ALLOWED_HOSTS = ["asdasdsa"]  # for live server
+ALLOWED_HOSTS = ['django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com']  # for live server
 
 
 # Application definition
