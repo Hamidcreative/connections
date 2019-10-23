@@ -15,5 +15,5 @@ urlpatterns = [
     path('campaigns', views.campaigns, name='campaigns'),
     path('messages', views.messages, name='messages'),
     path('logout', views.logout, name='logout'),
-    path('social-auth/', include('social_django.urls', namespace="social")),
+    #path('social-auth/', include('social_django.urls', namespace="social")),
 ]
