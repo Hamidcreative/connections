@@ -24,12 +24,28 @@ def call_back(request):
     ac_token = token['access_token']
     users_datas = requests.get("https://api.linkedin.com/v2/me/?oauth2_access_token="+ac_token+"&projection=(id,firstName, useremail,lastName,profilePicture(displayImage~:playableStreams))")
     users_details  =  users_datas.json()
-    firstName  = users_details['firstName']['localized']['en_US']
-    lastName   = users_details['lastName']['localized']['en_US']
-    avatar     = users_details['profilePicture']['displayImage~']['elements'][1]['identifiers'][0]['identifier']
-    users_emails = requests.get("https://api.linkedin.com/v2/clientAwareMemberHandles?oauth2_access_token="+ac_token+"&q=members&projection=(elements*(handle~))")
-    email = users_emails.json();
-    usere_mail = email['elements'][0]['handle~']['emailAddress'];
+    print('//////////////////////////////////////')
+    print(users_details)
+    print('//////////////////////////////////////')
+    print(users_details['id'])
+    print('//////////////////////////////////////')
+    #https: // api.linkedin.com / v2 / people / (id:ZclPaBjN_R)?projection = (id, firstName, lastName)
+    users = requests.get("https://api.linkedin.com/v2/people/ZclPaBjN_R?oauth2_access_token="+ac_token+"&X-RestLi-Protocol-Version:2.0.0&projection=(r_fullprofile,lastName)")
+    user = users.json()
+    print('////////////////users//////////////////////')
+    print(users)
+    print('//////////////////////////////////////')
+    print('///////////////people///////////////////////')
+    print(user)
+    print('//////////////////////////////////////')
+
+
+    firstName    = users_details['firstName']['localized']['en_US']
+    lastName     = users_details['lastName']['localized']['en_US']
+    avatar       = users_details['profilePicture']['displayImage~']['elements'][1]['identifiers'][0]['identifier']
+    users_emails = requests.get("https://api.linkedin.com/v2/emailAddress?oauth2_access_token="+ac_token+"&q=members&projection=(elements*(handle~))")
+    email        = users_emails.json();
+    usere_mail   = email['elements'][0]['handle~']['emailAddress'];
     if User.objects.filter(email=usere_mail).exists():
         return HttpResponseRedirect("/dashboard")
     else:
@@ -40,6 +56,7 @@ def call_back(request):
         user.save()
         return HttpResponseRedirect("/plans")
 def dashboard(request):
+    print('here')
     return render(request, 'dashboard.html')
 
 def plans(request):
