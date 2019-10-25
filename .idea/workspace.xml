@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
+            <state relative-caret-position="248">
+              <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -146,6 +146,7 @@
         <option value="$PROJECT_DIR$/linkedin/views.py" />
         <option value="$PROJECT_DIR$/connections/__init__.py" />
         <option value="$PROJECT_DIR$/linkedin/urls.py" />
+        <option value="$PROJECT_DIR$/connections/static/css/teminal.py" />
         <option value="$PROJECT_DIR$/connections/settings.py" />
       </list>
     </option>
@@ -178,6 +179,24 @@
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
@@ -405,14 +424,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571861954307</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="initial commit">
+      <created>1571862224058</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1571862224058</updated>
+    </task>
+    <task id="LOCAL-00028" summary="initial commit">
+      <created>1571862292286</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1571862292286</updated>
+    </task>
+    <task id="LOCAL-00029" summary="initial commit">
+      <created>1571987959347</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571987959376</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16223067" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16223067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,7 +463,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.06460296" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23014805" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -759,10 +799,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/connections/static/css/teminal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="37" column="16764" selection-start-line="37" selection-start-column="16764" selection-end-line="37" selection-end-column="16764" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/connections/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="162" column="45" selection-start-line="162" selection-start-column="45" selection-end-line="162" selection-end-column="45" />
+        <state relative-caret-position="248">
+          <caret line="164" column="37" lean-forward="true" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
         </state>
       </provider>
     </entry>
