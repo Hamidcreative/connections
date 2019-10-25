@@ -26,7 +26,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'an54y#*r1w3($cvwbt(g$lor3y#*nbgn&($=zv)o=ys^)@(l3p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 #ALLOWED_HOSTS = [] # for local server
 ALLOWED_HOSTS = ["*"]  # for live server django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com
@@ -155,16 +155,16 @@ USE_TZ = True
 AUTH_USER_MODEL = 'linkedin.User'
 
 
-# STATIC_ROOT = ''
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = ( os.path.join('static'), )
-
+STATIC_ROOT = ''
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-#STATICFILES_DIRS = ()
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
-]
+STATICFILES_DIRS = ( os.path.join('static'), )
+
+# STATIC_URL = '/static/'
+# #STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+# #STATICFILES_DIRS = ()
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static'),
+# ]
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
 MEDIA_URL  ='/media/'
