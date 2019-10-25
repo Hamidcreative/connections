@@ -11,7 +11,6 @@ from django.conf import settings
 
 
 
-
 class Login(TemplateView):
     template_name = 'login.html'
 
