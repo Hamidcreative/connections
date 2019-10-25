@@ -2,6 +2,7 @@ from django.urls import path,include
 from .views import Login
 from linkedin import views
 from django.contrib.auth import views as auth_views
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('login', views.login, name='login'),
@@ -15,5 +16,5 @@ urlpatterns = [
     path('campaigns', views.campaigns, name='campaigns'),
     path('messages', views.messages, name='messages'),
     path('logout', views.logout, name='logout'),
-    path('social-auth/', include('social_django.urls', namespace="social")),
+    #path('social-auth/', include('social_django.urls', namespace="social")),
 ]
