@@ -25,6 +25,9 @@ def call_back(request):
 
 
     token = res.json()
+    print('////////////////////access ////////////////////')
+    print(token)
+
     ac_token = token['access_token']
     # print('/////////////////////access token//////////////////')
     # print(ac_token)
