@@ -163,7 +163,7 @@ AUTH_USER_MODEL = 'linkedin.User'
 STATIC_ROOT = ""
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, ""),
+    os.path.join(BASE_DIR, "static"),
 )
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
