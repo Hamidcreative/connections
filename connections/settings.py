@@ -156,13 +156,13 @@ USE_TZ = True
 AUTH_USER_MODEL = 'linkedin.User'
 
 
-#STATIC_ROOT = ''
+STATIC_ROOT = ''
 # STATIC_URL = '/static/'
 # STATICFILES_DIRS = ( os.path.join('static'), )
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "connections/static"),
 )
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
