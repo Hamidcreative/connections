@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
-              <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+              <caret line="85" column="48" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -216,20 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00014" summary="initial commit">
-      <created>1571827404996</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1571827404996</updated>
-    </task>
-    <task id="LOCAL-00015" summary="initial commit">
-      <created>1571828187731</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1571828187731</updated>
     </task>
     <task id="LOCAL-00016" summary="initial commit">
       <created>1571828575760</created>
@@ -560,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572272053173</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="initial commit">
+      <created>1572272276850</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1572272276850</updated>
+    </task>
+    <task id="LOCAL-00064" summary="initial commit">
+      <created>1572272358148</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1572272358148</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -949,7 +949,7 @@
     <entry file="file://$PROJECT_DIR$/connections/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
-          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="48" />
         </state>
       </provider>
     </entry>
