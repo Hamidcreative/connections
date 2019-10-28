@@ -2,6 +2,7 @@ from django.urls import path,include
 from .views import Login
 from linkedin import views
 from django.contrib.auth import views as auth_views
+from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
@@ -22,4 +23,4 @@ urlpatterns = [
     path('savepost', views.savepost, name='savepost'),
 
 
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
