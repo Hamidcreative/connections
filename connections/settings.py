@@ -86,14 +86,14 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'connections',
         'USER': 'postgres',
-        #'PASSWORD': 'postgres',
-        'PASSWORD': 'develop12',
+        'PASSWORD': 'postgres',
+        #'PASSWORD': 'develop12',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
 # 'PASSWORD': 'postgres',  local
-# 'PASSWORD': 'develop12', Live
+# 'PASSWORD': 'postgres', Live
 
 AUTH_PASSWORD_VALIDATORS = [
     {
