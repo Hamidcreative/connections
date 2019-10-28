@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+            <state relative-caret-position="188">
+              <caret line="23" column="166" selection-start-line="23" selection-start-column="166" selection-end-line="23" selection-end-column="166" />
               <folding>
                 <element signature="e#2#57#0" expanded="true" />
               </folding>
@@ -210,20 +210,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00004" summary="initial commit">
-      <created>1571749351303</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1571749351303</updated>
-    </task>
-    <task id="LOCAL-00005" summary="initial commit">
-      <created>1571749570694</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1571749570694</updated>
     </task>
     <task id="LOCAL-00006" summary="initial commit">
       <created>1571750705878</created>
@@ -554,14 +540,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572266389159</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="initial commit">
+      <created>1572267178019</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1572267178019</updated>
+    </task>
+    <task id="LOCAL-00054" summary="initial commit">
+      <created>1572267411892</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1572267411893</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16223067" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.027883397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -939,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
+        <state relative-caret-position="188">
+          <caret line="23" column="166" selection-start-line="23" selection-start-column="166" selection-end-line="23" selection-end-column="166" />
           <folding>
             <element signature="e#2#57#0" expanded="true" />
           </folding>
