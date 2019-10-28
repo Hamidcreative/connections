@@ -160,10 +160,10 @@ AUTH_USER_MODEL = 'linkedin.User'
 # STATIC_URL = '/static/'
 # STATICFILES_DIRS = ( os.path.join('static'), )
 
-STATIC_ROOT = ""
+STATIC_ROOT = "/home/ubuntu/connections/static/"
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static"),'/home/ubuntu/connections/static/',
 )
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
