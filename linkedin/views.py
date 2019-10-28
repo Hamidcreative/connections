@@ -22,11 +22,13 @@ def call_back(request):
     codes = request.GET.get('code')
     res = requests.post("https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=77022qk4cbxhhw&redirect_uri=http://127.0.0.1:8000/call_back/&client_secret=0xxQLFbzRNqFboAS&code="+codes)
 
-
+    print('////////////////////Codes ////////////////////')
+    print(codes)
+    print('////////////////////access ////////////////////')
+    print(res)
 
     token = res.json()
-    print('////////////////////access ////////////////////')
-    print(token)
+
 
     ac_token = token['access_token']
     # print('/////////////////////access token//////////////////')
