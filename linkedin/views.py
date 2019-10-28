@@ -21,7 +21,7 @@ def login(request):
 def call_back(request):
     codes = request.GET.get('code')
     redirect_utl ='http://ec2-18-191-150-229.us-east-2.compute.amazonaws.com:8000'
-    res = requests.post("https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=81640v7palq8pd&redirect_uri="+redirect_utl+"/call_back/&client_secret=0xxQLFbzRNqFboAS&code="+codes)
+    res = requests.post("https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=81640v7palq8pd&redirect_uri="+redirect_utl+"/call_back/&client_secret=NrEP6PzssbMogU7t&code="+codes)
 
     print('////////////////////Codes ////////////////////')
     print(codes)
