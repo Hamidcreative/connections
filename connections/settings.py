@@ -29,7 +29,7 @@ SECRET_KEY = 'an54y#*r1w3($cvwbt(g$lor3y#*nbgn&($=zv)o=ys^)@(l3p'
 DEBUG = True
 
 #ALLOWED_HOSTS = [] # for local server
-ALLOWED_HOSTS = ["http://ec2-18-191-150-229.us-east-2.compute.amazonaws.com:8000"]  # for live server django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com
+ALLOWED_HOSTS = ["*"]  # for live server django-env.ufsss7agab.ap-south-1.elasticbeanstalk.com
 
 
 # Application definition
