@@ -116,8 +116,10 @@ AUTHENTICATION_BACKENDS = [
 
 # SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '77022qk4cbxhhw'  # Client ID
 # SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = '0xxQLFbzRNqFboAS'  # Client Secret
-SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '864pufv3fg04g5'  # Client ID
-SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'Q6wBibipFZigppPX'  # Client Secret
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '864pufv3fg04g5'  # Client ID
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'Q6wBibipFZigppPX'  # Client Secret
+SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '81640v7palq8pd'  # Client ID my id and secret
+SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'NrEP6PzssbMogU7t'  # Client Secret
 SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_liteprofile', 'r_emailaddress','w_member_social']
 SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address','positions', 'headline','summary','picture-url','site-standard-profile-request','public-profile-url','location','interests','skills','languages',]
 SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
