@@ -160,7 +160,7 @@ AUTH_USER_MODEL = 'linkedin.User'
 # STATIC_URL = '/static/'
 # STATICFILES_DIRS = ( os.path.join('static'), )
 
-STATIC_ROOT = "/home/ubuntu/connections/static/"
+STATIC_ROOT = ""
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "home/ubuntu/connections/static"),
