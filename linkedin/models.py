@@ -25,6 +25,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(_('active'), default=True,
                                     help_text=_('Designates whether this user should be treated as '
                                                 'active. Unselect this instead of deleting accounts.'))
+    ac_token = models.TextField(blank=True)
+    linkedin_id = models.TextField(blank=True)
     date_joined = models.DateTimeField(_('date joined'), default=datetime.now)
 
     objects = UserManager()
