@@ -178,9 +178,9 @@ AUTH_USER_MODEL = 'linkedin.User'
 
 STATIC_ROOT = "/home/ubuntu/connections/linkedin/static/"
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),'/home/ubuntu/connections/linkedin/static/',
-)
+# STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, "static"),'/home/ubuntu/connections/linkedin/static/',
+# )
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
 MEDIA_URL  ='/media/'
