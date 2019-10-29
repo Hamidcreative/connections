@@ -176,10 +176,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1612" />
-    <option name="height" value="865" />
+    <option name="x" value="-1226" />
+    <option name="y" value="109" />
+    <option name="width" value="966" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,6 +212,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
   </component>
   <component name="RecentsManager">
@@ -250,13 +251,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00027" summary="initial commit">
-      <created>1571862224058</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1571862224058</updated>
     </task>
     <task id="LOCAL-00028" summary="initial commit">
       <created>1571862292286</created>
@@ -594,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572338357137</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="initial commit">
+      <created>1572347566525</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1572347566525</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="ToolWindowManager">
