@@ -77,7 +77,7 @@ def addpost(request):
 def savepost(request):
     if request.method == 'POST':
         title   = request.POST.get("title", "")
-        message = request.POST.get("message", "")
+        #message = request.POST.get("message", "")
         message = request.POST.get("message", "")
         if 'user_id' in request.session:
             users_id = request.session['user_id']
