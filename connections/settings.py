@@ -80,30 +80,30 @@ WSGI_APPLICATION = 'connections.wsgi.application'
 
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'connections',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
- }
-# live data base connnections
 # DATABASES = {
 #     'default': {
-#         #'ENGINE': 'django.db.backends.sqlite3',
-#         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#         # 'ENGINE': 'django.db.backends.mysql',
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'postgres',
+#         'NAME': 'connections',
 #         'USER': 'postgres',
 #         'PASSWORD': 'postgres',
-#         'HOST': 'database-1-dajango.c2vqpzp4ya46.us-east-2.rds.amazonaws.com',
+#         'HOST': 'localhost',
 #         'PORT': '5432',
 #     }
-# }
+#  }
+# live data base connnections
+DATABASES = {
+    'default': {
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'database-1-dajango.c2vqpzp4ya46.us-east-2.rds.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 # local linkedin settings
 redirect_url = "http://127.0.0.1:8000"
@@ -175,18 +175,14 @@ USE_TZ = True
 AUTH_USER_MODEL = 'linkedin.User'
 
 #  for local
-
-
-
-
-STATIC_ROOT = ''
-STATIC_URL = '/static/'
-STATICFILES_DIRS = ( os.path.join('static'), )
-
-
-# For live
-# STATIC_ROOT = "/home/ubuntu/connections/linkedin/static/"
+# STATIC_ROOT = ''
 # STATIC_URL = '/static/'
+# STATICFILES_DIRS = ( os.path.join('static'), )
+
+
+#For live
+STATIC_ROOT = "/home/ubuntu/connections/linkedin/static/"
+STATIC_URL = '/static/'
 
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
