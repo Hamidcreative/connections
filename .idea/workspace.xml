@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324cb4ad-756e-4965-9ebe-f489d78b200a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/post-852.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/post-854.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/post-865.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connections/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connections/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/context_processors.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,20 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2015">
-              <caret line="31" column="51" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="51" />
+            <state relative-caret-position="212">
+              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+        <entry file="file://$PROJECT_DIR$/linkedin/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="406">
+              <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -56,74 +34,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedin/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="211" column="73" selection-start-line="211" selection-start-column="73" selection-end-line="211" selection-end-column="73" />
+            <state relative-caret-position="102">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#nav#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#3#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/templates/accounts/accounts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="508" column="10" selection-start-line="508" selection-start-column="10" selection-end-line="508" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#font#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#font#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#font#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#font#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#font#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1252">
-              <caret line="981" column="37" lean-forward="true" selection-start-line="981" selection-start-column="37" selection-end-line="981" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/post-852.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="59" lean-forward="true" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="152" column="18" lean-forward="true" selection-end-line="166" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -132,7 +47,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.png</find>
       <find>ava</find>
       <find>dash</find>
       <find>campa</find>
@@ -162,6 +76,7 @@
       <find>accounts</find>
       <find>dashboard</find>
       <find>logout</find>
+      <find>/logout/</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;{% static 'css</replace>
@@ -203,11 +118,9 @@
         <option value="$PROJECT_DIR$/linkedin/urls.py" />
         <option value="$PROJECT_DIR$/linkedin/static/linkedin/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/linkedin/static/css/style.css" />
-        <option value="$PROJECT_DIR$/linkedin/templates/login.html" />
         <option value="$PROJECT_DIR$/linkedin/views.py" />
         <option value="$PROJECT_DIR$/linkedin/context_processors.py" />
         <option value="$PROJECT_DIR$/accounts/models.py" />
-        <option value="$PROJECT_DIR$/connections/settings.py" />
         <option value="$PROJECT_DIR$/connections/urls.py" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
@@ -216,6 +129,8 @@
         <option value="$PROJECT_DIR$/static/css/post-852.css" />
         <option value="$PROJECT_DIR$/static/css/post-854.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/connections/settings.py" />
+        <option value="$PROJECT_DIR$/linkedin/templates/login.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/base.html" />
       </list>
     </option>
@@ -248,6 +163,17 @@
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
@@ -307,20 +233,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00031" summary="initial commit">
-      <created>1571988354990</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1571988354990</updated>
-    </task>
-    <task id="LOCAL-00032" summary="initial commit">
-      <created>1571988679528</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1571988679528</updated>
     </task>
     <task id="LOCAL-00033" summary="initial commit">
       <created>1571989001687</created>
@@ -651,7 +563,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572349621918</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="initial commit">
+      <created>1572526144579</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1572526144581</updated>
+    </task>
+    <task id="LOCAL-00081" summary="initial commit">
+      <created>1572526564238</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1572526564238</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -881,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="77" column="82" selection-start-line="77" selection-start-column="82" selection-end-line="77" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/templates/call_back.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -911,23 +830,6 @@
           <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connections/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2015">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1027,13 +929,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connections/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="211" column="73" selection-start-line="211" selection-start-column="73" selection-end-line="211" selection-end-column="73" />
+        <state relative-caret-position="102">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
