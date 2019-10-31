@@ -973,7 +973,13 @@ input#schedule
 }
 .hidden{
     display:none !important;
-    display:none !important;
-
-
 }
+.elementor-icon-wrapper {
+    text-align: center;
+}
+body {
+    margin-top: 130px  !important;
+    margin-bottom: 130px  !important;
+}
+
+

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'linkedin',
     'posts',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -69,7 +70,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'linkedin.context_processors.variable_of_context',
+                'linkedin.context_processors.add_variable_to_context',
             ],
         },
     },
@@ -79,35 +80,35 @@ WSGI_APPLICATION = 'connections.wsgi.application'
 
 
 
-# DATABASES = { local data base connections
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'connections',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+ }
+# live data base connnections
+# DATABASES = {
 #     'default': {
 #         #'ENGINE': 'django.db.backends.sqlite3',
 #         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #         # 'ENGINE': 'django.db.backends.mysql',
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'connections',
+#         'NAME': 'postgres',
 #         'USER': 'postgres',
-#         #'PASSWORD': 'postgres',
-#         'PASSWORD': 'develop12',
-#         'HOST': 'localhost',
+#         'PASSWORD': 'postgres',
+#         'HOST': 'database-1-dajango.c2vqpzp4ya46.us-east-2.rds.amazonaws.com',
 #         'PORT': '5432',
 #     }
 # }
-DATABASES = {
-    'default': {
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        # 'ENGINE': 'django.db.backends.mysql',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'database-1-dajango.c2vqpzp4ya46.us-east-2.rds.amazonaws.com',
-        'PORT': '5432',
-    }
-}
-# 'PASSWORD': 'postgres',  local
-# 'PASSWORD': 'develop12', Live
+
+# local linkedin settings
+redirect_url = "http://127.0.0.1:8000"
+client_id = "81q98zzq4ysq9p"
+client_secret = "9KxQQ9qpPQlQ6Lj2"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -133,17 +134,18 @@ AUTHENTICATION_BACKENDS = [
 # SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = '0xxQLFbzRNqFboAS'  # Client Secret
 # SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '864pufv3fg04g5'  # Client ID
 # SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'Q6wBibipFZigppPX'  # Client Secret
-SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '81640v7palq8pd'  # Client ID my id and secret
-SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'NrEP6PzssbMogU7t'  # Client Secret
-SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_liteprofile', 'r_emailaddress','w_member_social']
-SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address','positions', 'headline','summary','picture-url','site-standard-profile-request','public-profile-url','location','interests','skills','languages',]
-SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
-    ('id', 'id'),
-    ('formattedName', 'name'),
-    ('emailAddress', 'email_address'),
-    ('pictureUrl', 'picture_url'),
-    ('publicProfileUrl', 'profile_url'),
-]
+
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_KEY = '81640v7palq8pd'  # Client ID my id and secret
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_SECRET = 'NrEP6PzssbMogU7t'  # Client Secret
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_SCOPE = ['r_liteprofile', 'r_emailaddress','w_member_social']
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_FIELD_SELECTORS = ['email-address','positions', 'headline','summary','picture-url','site-standard-profile-request','public-profile-url','location','interests','skills','languages',]
+# SOCIAL_AUTH_LINKEDIN_OAUTH2_EXTRA_DATA = [
+#     ('id', 'id'),
+#     ('formattedName', 'name'),
+#     ('emailAddress', 'email_address'),
+#     ('pictureUrl', 'picture_url'),
+#     ('publicProfileUrl', 'profile_url'),
+# ]
 
 STRIPE_SECRET_KEY = 'sk_test_KJJBfmwVX1HY1d2hdIbMzq1a00GJNGZx2u'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_rgzCCbIXvAPT1xcwtYiKNRiI00C2jfk4D9'
@@ -172,16 +174,20 @@ USE_TZ = True
 
 AUTH_USER_MODEL = 'linkedin.User'
 
+#  for local
 
-#STATIC_ROOT = ''
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = ( os.path.join('static'), )
 
-STATIC_ROOT = "/home/ubuntu/connections/linkedin/static/"
+
+
+STATIC_ROOT = ''
 STATIC_URL = '/static/'
-# STATICFILES_DIRS = (
-#     os.path.join(BASE_DIR, "static"),'/home/ubuntu/connections/linkedin/static/',
-# )
+STATICFILES_DIRS = ( os.path.join('static'), )
+
+
+# For live
+# STATIC_ROOT = "/home/ubuntu/connections/linkedin/static/"
+# STATIC_URL = '/static/'
+
 
 MEDIA_ROOT =os.path.join(BASE_DIR,'media') #os operating system
 MEDIA_URL  ='/media/'

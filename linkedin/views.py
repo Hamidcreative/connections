@@ -20,23 +20,18 @@ def login(request):
 
 def call_back(request):
     codes = request.GET.get('code')
-    redirect_utl ="http://ec2-18-191-150-229.us-east-2.compute.amazonaws.com:8000"
-    res = requests.post("https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id=81640v7palq8pd&redirect_uri="+redirect_utl+"/call_back/&client_secret=NrEP6PzssbMogU7t&code="+codes)
+    # live
+    # redirect_utl ="http://ec2-18-191-150-229.us-east-2.compute.amazonaws.com:8000"
+    # client_id    =   "81640v7palq8pd"
+    # client_secret  = "NrEP6PzssbMogU7t"
+    # local
+    redirect_utl = "http://127.0.0.1:8000"  # local
+    client_id    =  "81q98zzq4ysq9p"
+    client_secret = "9KxQQ9qpPQlQ6Lj2"
 
-    print('////////////////////Codes ////////////////////')
-    print(codes)
-    print('////////////////////access ////////////////////')
-    print(res)
-
+    res = requests.post("https://www.linkedin.com/oauth/v2/accessToken?grant_type=authorization_code&client_id="+client_id+"&redirect_uri="+redirect_utl+"/call_back/&client_secret="+client_secret+"&code="+codes)
     token = res.json()
-
-
     ac_token = token['access_token']
-    # print('/////////////////////access token//////////////////')
-    # print(ac_token)
-    # print('/////////////////////codes//////////////////')
-    # print(codes)
-    # print('/////////////////////codes//////////////////')
     users_datas = requests.get("https://api.linkedin.com/v2/me/?oauth2_access_token="+ac_token+"&projection=(id,firstName, useremail,lastName,profilePicture(displayImage~:playableStreams))")
     users_details  =  users_datas.json()
     linkedin_id    = users_details['id']
