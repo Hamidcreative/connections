@@ -38,9 +38,9 @@ def import_data(request):
             imported_data = dataset.load(new_persons.read().decode('utf-8'),format='csv')
 
             result = person_resource.import_data(dataset, dry_run=True)  # Test the data import
-            print('dddddddddddddddddddddddddddddddddddddddddddddd')
-            print(result)
-            print('dddddddddddddddddddddddddddddddddddddddddddddd')
+            # print('dddddddddddddddddddddddddddddddddddddddddddddd')
+            # print(result)
+            # print('dddddddddddddddddddddddddddddddddddddddddddddd')
         except Exception as e:
             print(type(e))
 
