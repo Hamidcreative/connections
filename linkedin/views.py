@@ -7,6 +7,8 @@ import requests
 from .models import User
 from django.conf import settings
 from posts.models import Post
+from django.contrib.auth import login as auth_login
+from django.contrib.auth.decorators import login_required
 
 
 
@@ -50,6 +52,7 @@ def call_back(request):
         user.ac_token   = ac_token
         user.linkedin_id   = linkedin_id
         user.save()
+        auth_login(request, user)
         request.session['user_id'] = user.id
         return HttpResponseRedirect("/dashboard")
     else:
@@ -60,15 +63,19 @@ def call_back(request):
         user.ac_token   = ac_token
         user.linkedin_id   = linkedin_id
         user.save()
+        auth_login(request, user)
         request.session['user_id'] = user.id
         return HttpResponseRedirect("/plans")
 
+@login_required
 def dashboard(request):
     return render(request, 'dashboard.html')
 
+@login_required
 def addpost(request):
     return render(request, 'addpost.html')
 
+@login_required
 def savepost(request):
     if request.method == 'POST':
         title   = request.POST.get("title", "")
@@ -133,9 +140,11 @@ def savepost(request):
             return render(request, 'login.html')
     return render(request, 'addpost.html')
 
+@login_required
 def plans(request):
     return render(request, 'plans.html')
 
+@login_required
 def payment(request):
     def get_context_data(self, **kwargs):  # new
         context = super().get_context_data(**kwargs)

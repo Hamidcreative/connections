@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}  Dashboard {% endblock %}
+{% load static %}
+{% block content %}
+
+<div data-elementor-type="single" data-elementor-id="655"
+        class="elementor elementor-655 elementor-location-single post-397 page type-page status-publish hentry"
+        data-elementor-settings="[]">
+        <div class="elementor-inner">
+            <div class="elementor-section-wrap">
+                <section
+                    class="elementor-element elementor-element-71f2a13 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section"
+                    data-id="71f2a13" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-row">
+                            <div class="elementor-element elementor-element-a2a1321 elementor-column elementor-col-33 elementor-top-column"
+                                data-id="a2a1321" data-element_type="column"
+                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-c2b29ff elementor-widget elementor-widget-text-editor"
+                                            data-id="c2b29ff" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">Lorem ipsum dolor
+                                                    sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                                    ullamcorper mattis, pulvinar dapibus leo.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-5777abe elementor-column elementor-col-33 elementor-top-column"
+                                data-id="5777abe" data-element_type="column">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-454690e elementor-button-align-stretch elementor-widget elementor-widget-form"
+                                            data-id="454690e" data-element_type="widget"
+                                            data-widget_type="form.default">
+													<div class="elementor-inner">
+														<div class="elementor-section-wrap">
+															<main class="elementor-element elementor-element-4b28f3b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4b28f3b" data-element_type="section">
+																<div class="elementor-container elementor-column-gap-narrow">
+																	<form method="post" enctype="multipart/form-data">
+																		{% csrf_token %}
+																		 <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
+																			<label for="form-field-name"
+																				class="elementor-field-label elementor-screen-only">Name</label>
+																			 <input size="1" type="file" name="myfile" class="elementor-field elementor-size-lg  elementor-field-textual myfile"
+																				placeholder="Post title " required="required"
+																				aria-required="true">
+																		 </div>
+																		  <div   class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100">
+                                                           						 <button type="submit" class="elementor-button elementor-size-lg elementor-animation-float">
+																					 <span>
+
+																						<span class="elementor-button-text">Upload</span>
+																					</span>
+                                                            					</button>
+                                                        				</div>
+
+																	</form>
+																</div>
+															</main>
+														 </div>
+													</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-c2429e2 elementor-column elementor-col-33 elementor-top-column"
+                                data-id="c2429e2" data-element_type="column"
+                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                <div class="elementor-column-wrap  elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-6568df7 elementor-widget elementor-widget-text-editor"
+                                            data-id="6568df7" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-text-editor elementor-clearfix">Lorem ipsum dolor
+                                                    sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                                                    ullamcorper mattis, pulvinar dapibus leo.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+    jQuery(document).ready(function($) {
+
+    });
+</script>
+{% endblock %}

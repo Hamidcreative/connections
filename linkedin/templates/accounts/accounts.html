@@ -9,6 +9,71 @@
 				<main class="elementor-element elementor-element-4b28f3b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4b28f3b" data-element_type="section">
 					<div class="elementor-container elementor-column-gap-narrow">
 						<div class="elementor-row">
+
+
+
+
+							{% for account in lists %}
+
+								<div class="elementor-element elementor-element-64fa69e elementor-column elementor-col-25 elementor-top-column" data-id="64fa69e" data-element_type="column">
+									<div class="elementor-column-wrap  elementor-element-populated">
+										<div class="elementor-widget-wrap">
+											<div class="elementor-element elementor-element-931c013 elementor-widget elementor-widget-image" data-id="931c013" data-element_type="widget" data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-image">
+														<img src="http://linkedinrepublic.com/wp-content/uploads/elementor/thumbs/accounts-marina-lawson-ofx9k10nyfhp4jhzceylu4vwjitpj86gtr49ehsdsw.jpg" title="accounts-marina-lawson" alt="accounts-marina-lawson">
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-3668e70 elementor-icon-list--layout-inline elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-icon-list" data-id="3668e70" data-element_type="widget" data-widget_type="icon-list.default">
+												<div class="elementor-widget-container">
+													<ul class="elementor-icon-list-items elementor-inline-items">
+														<li class="elementor-icon-list-item">
+															<a href="#"> <span class="elementor-icon-list-text"> {{account.name}} </span>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-7252bb1 elementor-icon-list--layout-inline elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-icon-list" data-id="7252bb1" data-element_type="widget" data-widget_type="icon-list.default">
+												<div class="elementor-widget-container">
+													<ul class="elementor-icon-list-items elementor-inline-items">
+														<li class="elementor-icon-list-item">
+															<span class="elementor-icon-list-text"><span style="color: rgb(35, 175, 19); font-size: 12px; font-weight: 600; text-transform: none; background-color: rgb(199, 235, 195);">{{account.about}}</span></span>
+														</li>
+													</ul>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-18af5cf elementor-icon-list--layout-inline elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-icon-list" data-id="18af5cf" data-element_type="widget" data-widget_type="icon-list.default">
+												<div class="elementor-widget-container">
+													<ul class="elementor-icon-list-items elementor-inline-items">
+														<li class="elementor-icon-list-item">
+															<span class="elementor-icon-list-icon">
+																<i aria-hidden="true" class="far fa-id-badge"></i> </span>
+															<span class="elementor-icon-list-text"></span>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								{% if forloop.counter|divisibleby:4 %}
+												</div>
+											</div>
+									</main>
+									<main class="elementor-element elementor-element-4b28f3b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4b28f3b" data-element_type="section">
+											<div class="elementor-container elementor-column-gap-narrow">
+												<div class="elementor-row">
+								{% endif %}
+							{% endfor %}
+						</div>
+					</div>
+				</main>
+				<main class="elementor-element elementor-element-4b28f3b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4b28f3b" data-element_type="section">
+					<div class="elementor-container elementor-column-gap-narrow">
+						<div class="elementor-row">
 							<div class="elementor-element elementor-element-64fa69e elementor-column elementor-col-25 elementor-top-column" data-id="64fa69e" data-element_type="column">
 								<div class="elementor-column-wrap  elementor-element-populated">
 									<div class="elementor-widget-wrap">
@@ -66,8 +131,8 @@
 											<div class="elementor-widget-container">
 												<ul class="elementor-icon-list-items elementor-inline-items">
 													<li class="elementor-icon-list-item">
-														<a href="#"> <span class="elementor-icon-list-text">bitcoin
-																wallet</span>
+														<a href="#"> <span class="elementor-icon-list-text">
+																wallet  </span>
 														</a>
 													</li>
 												</ul>
@@ -435,7 +500,7 @@
 										<div class="elementor-element elementor-element-29971c6 elementor-align-center elementor-widget elementor-widget-button" data-id="29971c6" data-element_type="widget" data-widget_type="button.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-button-wrapper">
-													<a href="#" class="elementor-button-link elementor-button elementor-size-lg elementor-animation-float" target="_blank" role="button">
+													<a href="accounts/import" class="elementor-button-link elementor-button elementor-size-lg elementor-animation-float" target="_blank" role="button">
 														<span class="elementor-button-content-wrapper">
 															<span class="elementor-button-text">connect a page</span>
 														</span>
@@ -480,7 +545,7 @@
 										<div class="elementor-element elementor-element-b266c67 elementor-align-center elementor-widget elementor-widget-button" data-id="b266c67" data-element_type="widget" data-widget_type="button.default">
 											<div class="elementor-widget-container">
 												<div class="elementor-button-wrapper">
-													<a href="#" class="elementor-button-link elementor-button elementor-size-lg elementor-animation-float" target="_blank" role="button">
+													<a href="accounts/import" class="elementor-button-link elementor-button elementor-size-lg elementor-animation-float" target="_blank" role="button">
 														<span class="elementor-button-content-wrapper">
 															<span class="elementor-button-text">connect a group</span>
 														</span>

@@ -7,11 +7,11 @@ verify_ssl = true
 
 [packages]
 django = "*"
-
 django-mysql = "*"
 social-auth-app-django = "*"
 stripe = "*"
 psycopg2 = "*"
+django-import-export = "*"
 
 [requires]
 python_version = "3.6"

@@ -16,7 +16,7 @@ urlpatterns = [
     path('connections', views.connections, name='connections'),
     path('campaigns', views.campaigns, name='campaigns'),
     path('messages', views.messages, name='messages'),
-    path('logout', views.logout, name='logout'),
+    path('logout', auth_views.LogoutView.as_view(template_name='logout.html'), name='logout'),
     #path('social-auth/', include('social_django.urls', namespace="social")),
 
     path('add-post', views.addpost, name='addpost'),

@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'linkedin',
     'posts',
     'accounts',
+    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #'social_django.middleware.SocialAuthExceptionMiddleware',
+    'connections.middleware.authenticatemiddleware.AuthenticateMiddleware',
+
 ]
 
 ROOT_URLCONF = 'connections.urls'
@@ -76,6 +78,10 @@ TEMPLATES = [
     },
 ]
 
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True
+
+
 WSGI_APPLICATION = 'connections.wsgi.application'
 
 
@@ -90,7 +96,7 @@ WSGI_APPLICATION = 'connections.wsgi.application'
 #         'PORT': '5432',
 #     }
 #  }
-# live data base connnections
+#  live data base connnections
 DATABASES = {
     'default': {
         #'ENGINE': 'django.db.backends.sqlite3',
@@ -106,9 +112,9 @@ DATABASES = {
 }
 
 # local linkedin settings
-redirect_url = "http://127.0.0.1:8000"
-client_id = "81q98zzq4ysq9p"
-client_secret = "9KxQQ9qpPQlQ6Lj2"
+# redirect_url = "http://127.0.0.1:8000"
+# client_id = "81q98zzq4ysq9p"
+# client_secret = "9KxQQ9qpPQlQ6Lj2"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -126,7 +132,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTHENTICATION_BACKENDS = [
-    'social_core.backends.linkedin.LinkedinOAuth2',
+   # 'social_core.backends.linkedin.LinkedinOAuth2',
     'django.contrib.auth.backends.ModelBackend',
 ]
 
@@ -146,6 +152,9 @@ AUTHENTICATION_BACKENDS = [
 #     ('pictureUrl', 'picture_url'),
 #     ('publicProfileUrl', 'profile_url'),
 # ]
+
+
+
 
 STRIPE_SECRET_KEY = 'sk_test_KJJBfmwVX1HY1d2hdIbMzq1a00GJNGZx2u'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_rgzCCbIXvAPT1xcwtYiKNRiI00C2jfk4D9'
@@ -175,9 +184,9 @@ USE_TZ = True
 AUTH_USER_MODEL = 'linkedin.User'
 
 #  for local
-# STATIC_ROOT = ''
+# STATIC_ROOT = 'connections/linkedin/static/'
 # STATIC_URL = '/static/'
-# STATICFILES_DIRS = ( os.path.join('static'), )
+
 
 
 #For live
