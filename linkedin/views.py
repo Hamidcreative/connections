@@ -81,8 +81,8 @@ def savepost(request):
         title   = request.POST.get("title", "")
         #message = request.POST.get("message", "")
         message = request.POST.get("message", "")
-        if 'user_id' in request.session:
-            users_id = request.session['user_id']
+        if request.user.id:
+            users_id = request.user.id
             user = User.objects.get(id=users_id)
             ac_token = user.ac_token
             linkedin_id = user.linkedin_id

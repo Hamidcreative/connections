@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'linkedin',
+    'linkedin.templatetags',
     'posts',
     'accounts',
     'import_export',
@@ -85,7 +86,7 @@ IMPORT_EXPORT_USE_TRANSACTIONS = True
 WSGI_APPLICATION = 'connections.wsgi.application'
 
 
-
+#  Local  data base
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',

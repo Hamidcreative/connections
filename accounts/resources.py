@@ -4,6 +4,7 @@ from accounts.models import Account
 from import_export.fields import Field
 import requests
 from linkedin.models import User
+from posts.models import Post
 from import_export import resources, widgets, fields
 from import_export.widgets import ForeignKeyWidget
 from import_export.admin import ImportExportModelAdmin
@@ -42,6 +43,42 @@ class AccountResource(resources.ModelResource):
 
     def dehydrate_name(self, accout):
         return  accout.name + accout.about
+
+
+
+class UpdateResource(resources.ModelResource):
+    user = {}
+
+    def __init__(self, *args, **kwargs):
+
+        if 'request' in kwargs:
+            self.user = kwargs['request'].user
+            kwargs.pop('request', None)
+            super(UpdateResource, self).__init__(*args, **kwargs)
+
+    def before_import_row( self, row, **kwargs):
+
+        if self.user:
+            row['author'] = self.user.id
+        else:
+            row['author'] = kwargs['user'].id
+
+
+    class Meta:
+        model = Post
+        skip_unchanged = True
+        report_skipped = True
+        exclude = ('id','created_at','updated_at','status','sent_on','time')
+        import_id_fields = ('title',)
+        fields  = ('author','title','interval','frequency','type','hashtag','comment','image','content')
+
+
+
+
+
+
+
+
 
 
 

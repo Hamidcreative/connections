@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="324cb4ad-756e-4965-9ebe-f489d78b200a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/templates/import/import.html" afterDir="false" />
+    <list default="true" id="324cb4ad-756e-4965-9ebe-f489d78b200a" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-868.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/templates/updates/import.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedin/templatetags/custom_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/resources.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connections/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connections/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/connections/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/migrations/0002_user_ac_token.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/migrations/0003_auto_20191026_1302.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/migrations/0004_user_linkedin_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/updates/updates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/animations.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/blocks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/common.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/elementor-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/flatpickr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/fontawesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/frontend.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/frontendpro.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-34.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-390.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-405.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-444.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-519.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-556.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-603.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-655.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-706.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-852.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-854.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/post-865.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/regular.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/style-ts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/style-ts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/css/theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/avatar-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/avatar-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/avatar-60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/banjo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-270x270.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-100x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/cropped-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/backbone.marionette.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/backbone.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/backbone.radio.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/commonmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/commonmodules.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/core.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/dialog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/draggable.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/flatpickr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/frontend-modules.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/frontend.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery.scrollTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery.smartmenus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/jquery.sticky.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/mouse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/position.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/skip-link-focus-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/underscore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/widget.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedin/static/js/wp-embed.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/animations.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/blocks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/common.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/elementor-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/flatpickr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/frontend.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/frontendpro.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-34.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-390.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-405.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-444.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-519.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-556.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-603.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-655.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-706.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-852.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-854.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/post-865.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/regular.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style-ts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style-ts.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/avatar-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/avatar-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/avatar-60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banjo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-1-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-1-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-1-270x270.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-1-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-100x100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/cropped-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/backbone.marionette.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/backbone.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/backbone.radio.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/commonmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/commonmodules.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/core.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/dialog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/draggable.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/flatpickr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/frontend-modules.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/frontend.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.scrollTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.smartmenus.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.sticky.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/mouse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/position.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/skip-link-focus-fix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/underscore.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/waypoints.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/widget.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/wp-embed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templatetags/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,15 +99,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+        <entry file="file://$PROJECT_DIR$/linkedin/templatetags/custom_tags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -111,70 +112,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+            <state relative-caret-position="467">
+              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/views.py">
+        <entry file="file://$PROJECT_DIR$/linkedin/templates/updates/updates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="154" column="15" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="15" />
+            <state relative-caret-position="355">
+              <caret line="173" column="120" selection-start-line="173" selection-start-column="120" selection-end-line="173" selection-end-column="120" />
               <folding>
-                <element signature="e#2#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/templates/import/import.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="48" column="191" selection-start-line="48" selection-start-column="185" selection-end-line="48" selection-end-column="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="986" column="34" selection-start-line="986" selection-start-column="34" selection-end-line="986" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="118" column="78" selection-start-line="118" selection-start-column="78" selection-end-line="118" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linkedin/templates/addpost.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="124" selection-end-column="10" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,14 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>auth</find>
-      <find>ALLOWED_HOSTS</find>
-      <find>social</find>
-      <find>from django.conf.urls.static import static</find>
-      <find>social_django</find>
-      <find>w_organization_social</find>
-      <find>Auth_U</find>
-      <find>title</find>
       <find>attachment-full size-full</find>
       <find>client</find>
       <find>width</find>
@@ -221,6 +170,14 @@
       <find>plans</find>
       <find>metrics</find>
       <find>Metrics</find>
+      <find>1583px</find>
+      <find>request.user.id</find>
+      <find>connec</find>
+      <find>connections</find>
+      <find>users_id</find>
+      <find>date</find>
+      <find>import</find>
+      <find>remaining_time</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;{% static 'css</replace>
@@ -239,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/connections/views.py" />
-        <option value="$PROJECT_DIR$/connections/templates/base.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/header.html" />
         <option value="$USER_HOME$/Desktop/design/design/campaigns/index.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/campaigns.html" />
@@ -257,16 +212,13 @@
         <option value="$PROJECT_DIR$/linkedin/templates/connections.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/linkedin/models.py" />
-        <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/linkedin/templates/addpost.html" />
         <option value="$PROJECT_DIR$/linkedin/static/linkedin/static/css/style.css" />
         <option value="$PROJECT_DIR$/static/linkedin/static/css/style.css" />
-        <option value="$PROJECT_DIR$/connections/urls.py" />
         <option value="$PROJECT_DIR$/static/css/post-865.css" />
         <option value="$PROJECT_DIR$/static/css/post-852.css" />
         <option value="$PROJECT_DIR$/static/css/post-854.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/linkedin/templates/login.html" />
         <option value="$PROJECT_DIR$/accounts/admin.py" />
         <option value="$PROJECT_DIR$/accounts/models.py" />
         <option value="$PROJECT_DIR$/linkedin/middleware.py" />
@@ -275,15 +227,25 @@
         <option value="$PROJECT_DIR$/linkedin/context_processors.py" />
         <option value="$PROJECT_DIR$/connections/authenticatemiddleware/authenticatemiddleware.py" />
         <option value="$PROJECT_DIR$/connections/middleware/authenticatemiddleware.py" />
-        <option value="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" />
         <option value="$PROJECT_DIR$/accounts/urls.py" />
-        <option value="$PROJECT_DIR$/accounts/resources.py" />
         <option value="$PROJECT_DIR$/linkedin/urls.py" />
-        <option value="$PROJECT_DIR$/linkedin/views.py" />
-        <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/linkedin/templates/base.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/import/import.html" />
+        <option value="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" />
+        <option value="$PROJECT_DIR$/linkedin/templates/login.html" />
+        <option value="$PROJECT_DIR$/posts/models.py" />
+        <option value="$PROJECT_DIR$/linkedin/views.py" />
+        <option value="$PROJECT_DIR$/connections/urls.py" />
+        <option value="$PROJECT_DIR$/connections/linkedin/static/css/post-868.css" />
         <option value="$PROJECT_DIR$/linkedin/static/css/style.css" />
+        <option value="$PROJECT_DIR$/linkedin/templates/base.html" />
+        <option value="$PROJECT_DIR$/posts/urls.py" />
+        <option value="$PROJECT_DIR$/posts/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/linkedin/templates/updates/import.html" />
+        <option value="$PROJECT_DIR$/accounts/resources.py" />
+        <option value="$PROJECT_DIR$/posts/views.py" />
+        <option value="$PROJECT_DIR$/linkedin/templates/updates/updates.html" />
+        <option value="$PROJECT_DIR$/linkedin/templatetags/custom_tags.py" />
         <option value="$PROJECT_DIR$/connections/settings.py" />
       </list>
     </option>
@@ -321,20 +283,35 @@
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
               <item name="linkedin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
               <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
               <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="updates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -344,22 +321,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python\connections\connections" />
-      <recent name="E:\python\connections\linkedin\authenticatemiddleware" />
-      <recent name="E:\python\connections\linkedin\static\linkedin" />
-      <recent name="E:\python\connections\linkedin" />
-      <recent name="E:\python\connections\connections\static" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\connections\linkedin\templates\updates" />
       <recent name="E:\python\connections\connections" />
       <recent name="E:\python\connections\linkedin" />
       <recent name="E:\python\connections\static" />
       <recent name="E:\python\connections" />
-      <recent name="E:\python\connections\linkedin\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\connections\linkedin\static\css" />
+      <recent name="E:\python\connections\connections" />
+      <recent name="E:\python\connections\linkedin\authenticatemiddleware" />
+      <recent name="E:\python\connections\linkedin\static\linkedin" />
+      <recent name="E:\python\connections\linkedin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,48 +361,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00035" summary="initial commit">
-      <created>1571995142675</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1571995142675</updated>
-    </task>
-    <task id="LOCAL-00036" summary="initial commit">
-      <created>1571995783257</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1571995783257</updated>
-    </task>
-    <task id="LOCAL-00037" summary="initial commit">
-      <created>1571995881062</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1571995881062</updated>
-    </task>
-    <task id="LOCAL-00038" summary="initial commit">
-      <created>1572004865664</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1572004865664</updated>
-    </task>
-    <task id="LOCAL-00039" summary="initial commit">
-      <created>1572261438724</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1572261438724</updated>
-    </task>
-    <task id="LOCAL-00040" summary="initial commit">
-      <created>1572262813973</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1572262813973</updated>
     </task>
     <task id="LOCAL-00041" summary="initial commit">
       <created>1572263454019</created>
@@ -728,7 +663,49 @@
       <option name="project" value="LOCAL" />
       <updated>1572527006838</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="initial commit">
+      <created>1573024041324</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1573024041325</updated>
+    </task>
+    <task id="LOCAL-00085" summary="initial commit">
+      <created>1573024811191</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1573024811191</updated>
+    </task>
+    <task id="LOCAL-00086" summary="initial commit">
+      <created>1573025031918</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1573025031918</updated>
+    </task>
+    <task id="LOCAL-00087" summary="initial commit">
+      <created>1573025769377</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1573025769378</updated>
+    </task>
+    <task id="LOCAL-00088" summary="initial commit">
+      <created>1573027167813</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027167813</updated>
+    </task>
+    <task id="LOCAL-00089" summary="initial commit">
+      <created>1573027482436</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027482436</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -737,7 +714,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.14068441" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13498099" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.11978465" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -754,9 +731,9 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14068441" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13498099" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.11978465" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -794,77 +771,20 @@
           <line>19</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/posts/views.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/posts/views.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connections/static/css/teminal.py" />
-    <entry file="file://$PROJECT_DIR$/.ebextensions/django.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connections/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#227#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/connections.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="189" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/messages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="586" column="14" lean-forward="true" selection-end-line="586" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/migrations/0002_user_ac_token.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/admin.py" />
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/campaigns.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-end-line="122" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/global.js" />
     <entry file="file://$PROJECT_DIR$/static/linkedin/static/js/global.js" />
     <entry file="file://$PROJECT_DIR$/linkedin/static/linkedin/static/css/style.css" />
     <entry file="file://$PROJECT_DIR$/static/linkedin/static/css/style.css" />
@@ -883,16 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/templates/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -904,13 +814,6 @@
     <entry file="file://$PROJECT_DIR$/static/css/post-852.css" />
     <entry file="file://$PROJECT_DIR$/static/css/post-854.css" />
     <entry file="file://$PROJECT_DIR$/static/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/static/js/global.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -918,26 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="75" column="10" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#1#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,19 +848,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connections/authenticatemiddleware/authenticatemiddleware.py" />
-    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/import_export/templates/admin/import_export/import.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/tests/core/tests/test_resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="1135" column="56" lean-forward="true" selection-start-line="1135" selection-start-column="56" selection-end-line="1135" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/import_export/templates/admin/import_export/import.html" />
+    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/tests/core/tests/test_resources.py" />
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -985,107 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/connections/middleware/authenticatemiddleware.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/accounts/accounts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="188" selection-start-line="17" selection-start-column="188" selection-end-line="17" selection-end-column="188" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="e#1#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/import_export/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="460" column="8" selection-start-line="460" selection-start-column="8" selection-end-line="460" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="94" lean-forward="true" selection-start-line="18" selection-start-column="94" selection-end-line="18" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connections/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="154" column="15" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="15" />
-          <folding>
-            <element signature="e#2#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="118" column="78" selection-start-line="118" selection-start-column="78" selection-end-line="118" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/django-import-export-master/django-import-export-master/import_export/resources.py" />
     <entry file="file://$PROJECT_DIR$/linkedin/templates/addpost.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1096,24 +868,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templates/import/import.html">
+    <entry file="file://$PROJECT_DIR$/connections/middleware/authenticatemiddleware.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="191" selection-start-line="48" selection-start-column="185" selection-end-line="48" selection-end-column="191" />
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="91" column="10" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/static/css/post-868.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="165627" selection-start-column="165627" selection-end-column="165627" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connections/linkedin/static/css/post-865.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="986" column="34" selection-start-line="986" selection-start-column="34" selection-end-line="986" selection-end-column="34" />
+        <state relative-caret-position="657">
+          <caret line="989" column="1" selection-start-line="989" selection-start-column="1" selection-end-line="989" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connections/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/payment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="92" column="86" selection-start-line="92" selection-start-column="86" selection-end-line="92" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/import/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="56" column="137" lean-forward="true" selection-start-line="56" selection-start-column="137" selection-end-line="56" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+          <folding>
+            <element signature="e#1#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/accounts/accounts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="68" column="43" lean-forward="true" selection-start-line="61" selection-start-column="32" selection-end-line="68" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/updates/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="117" selection-start-line="43" selection-start-column="117" selection-end-line="43" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="89" lean-forward="true" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="89" />
+          <folding>
+            <element signature="e#2#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templates/updates/updates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="173" column="120" selection-start-line="173" selection-start-column="120" selection-end-line="173" selection-end-column="120" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#main#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templatetags/custom_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connections/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="189" lean-forward="true" selection-start-line="189" selection-end-line="189" />
+        <state relative-caret-position="467">
+          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
         </state>
       </provider>
     </entry>
