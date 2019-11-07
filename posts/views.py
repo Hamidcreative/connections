@@ -20,6 +20,7 @@ from linkedin.templatetags import custom_tags
 
 @login_required
 def updates(request):
+
     user_id = request.user.id
     posts = Post.objects.filter(author=user_id)
     return render(request, 'updates/updates.html', {'lists': posts})

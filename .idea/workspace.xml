@@ -2,268 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324cb4ad-756e-4965-9ebe-f489d78b200a" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/animations.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/common.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/elementor-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/flatpickr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/frontend.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/frontendpro.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-34.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-390.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-405.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-444.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-519.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-556.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-603.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-655.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-706.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-852.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-854.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-865.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/post-868.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/style-ts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/style-ts.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/css/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/avatar-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/avatar-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/avatar-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/banjo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-1-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-1-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-1-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-1-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/cropped-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/import_export/action_formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/import_export/import.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/backbone.marionette.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/backbone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/backbone.radio.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/commonmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/commonmodules.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/dialog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/draggable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/flatpickr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/frontend-modules.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery.scrollTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery.smartmenus.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/jquery.sticky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/mouse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/position.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/skip-link-focus-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/underscore.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/widget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connections/linkedin/static/js/wp-embed.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/animations.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/common.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/elementor-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/flatpickr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/frontend.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/frontendpro.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-34.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-390.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-405.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-444.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-519.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-556.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-603.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-655.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-706.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-852.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-854.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/post-865.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/style-ts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/style-ts.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/css/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/avatar-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/avatar-40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/avatar-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/banjo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-270x270.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-1-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-100x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/cropped-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/backbone.marionette.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/backbone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/backbone.radio.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/commonmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/commonmodules.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/dialog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/draggable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/flatpickr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/frontend-modules.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/frontend.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery-migrate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery.scrollTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery.smartmenus.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/jquery.sticky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/mouse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/position.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/skip-link-focus-fix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/underscore.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/waypoints.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/widget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedin/static/js/wp-embed.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connections/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
+            <state relative-caret-position="238">
+              <caret line="107" column="25" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -294,13 +36,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#3#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts/resources.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -308,6 +53,15 @@
               <folding>
                 <element signature="e#1#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/posts/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -331,6 +85,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/posts/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -342,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>attachment-full size-full</find>
       <find>client</find>
       <find>width</find>
       <find>http://linkedinrepublic.com/wp-content/uploads/elementor/thumbs/header-marina-lawson-ofx9k4s0ir10k3n4ffnbrxq0cou47c2vms6z4z5ni8.jpg</find>
@@ -372,6 +134,7 @@
       <find>date</find>
       <find>import</find>
       <find>remaining_time</find>
+      <find>post</find>
     </findStrings>
     <replaceStrings>
       <replace>href=&quot;{% static 'css</replace>
@@ -426,7 +189,6 @@
         <option value="$PROJECT_DIR$/linkedin/templates/import/import.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/accounts/accounts.html" />
         <option value="$PROJECT_DIR$/linkedin/templates/login.html" />
-        <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/linkedin/views.py" />
         <option value="$PROJECT_DIR$/connections/urls.py" />
         <option value="$PROJECT_DIR$/connections/linkedin/static/css/post-868.css" />
@@ -437,10 +199,11 @@
         <option value="$PROJECT_DIR$/accounts/views.py" />
         <option value="$PROJECT_DIR$/linkedin/templates/updates/import.html" />
         <option value="$PROJECT_DIR$/accounts/resources.py" />
-        <option value="$PROJECT_DIR$/posts/views.py" />
         <option value="$PROJECT_DIR$/linkedin/templates/updates/updates.html" />
         <option value="$PROJECT_DIR$/linkedin/templatetags/custom_tags.py" />
         <option value="$PROJECT_DIR$/connections/settings.py" />
+        <option value="$PROJECT_DIR$/posts/views.py" />
+        <option value="$PROJECT_DIR$/posts/models.py" />
       </list>
     </option>
   </component>
@@ -473,59 +236,6 @@
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="connections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedin" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="connections" type="b2602c69:ProjectViewProjectNode" />
@@ -580,20 +290,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00042" summary="initial commit">
-      <created>1572263528955</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1572263528955</updated>
-    </task>
-    <task id="LOCAL-00043" summary="initial commit">
-      <created>1572263577826</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1572263577826</updated>
     </task>
     <task id="LOCAL-00044" summary="initial commit">
       <created>1572263656922</created>
@@ -924,11 +620,26 @@
       <option name="project" value="LOCAL" />
       <updated>1573134410477</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="initial commit">
+      <created>1573135109399</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1573135109400</updated>
+    </task>
+    <task id="LOCAL-00092" summary="initial commit">
+      <created>1573137380518</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1573137380518</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -996,7 +707,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/posts/views.py</url>
-          <line>41</line>
+          <line>42</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
@@ -1104,9 +815,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/urls.py">
@@ -1245,19 +953,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkedin/templatetags/custom_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#1#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connections/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#3#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1279,34 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linkedin/templatetags/custom_tags.py">
+    <entry file="file://$PROJECT_DIR$/posts/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/connections/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="195" lean-forward="true" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="e#1#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
