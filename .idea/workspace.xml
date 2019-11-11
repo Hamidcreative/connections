@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="324cb4ad-756e-4965-9ebe-f489d78b200a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedin/templates/updates/updates.html" beforeDir="false" afterPath="$PROJECT_DIR$/linkedin/templates/updates/updates.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,11 +69,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedin/templates/updates/updates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+            <state relative-caret-position="409">
+              <caret line="206" column="12" selection-start-line="206" selection-start-column="12" selection-end-line="206" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#main#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -292,27 +292,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571313091822</updated>
-    </task>
-    <task id="LOCAL-00056" summary="initial commit">
-      <created>1572267765408</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1572267765408</updated>
-    </task>
-    <task id="LOCAL-00057" summary="initial commit">
-      <created>1572267859374</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1572267859374</updated>
-    </task>
-    <task id="LOCAL-00058" summary="initial commit">
-      <created>1572268044527</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1572268044527</updated>
     </task>
     <task id="LOCAL-00059" summary="initial commit">
       <created>1572269103453</created>
@@ -636,7 +615,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573482249717</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="initial commit">
+      <created>1573482347227</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1573482347227</updated>
+    </task>
+    <task id="LOCAL-00106" summary="initial commit">
+      <created>1573482425703</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1573482425703</updated>
+    </task>
+    <task id="LOCAL-00107" summary="initial commit">
+      <created>1573482542951</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1573482542951</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1016,11 +1016,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linkedin/templates/updates/updates.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
+        <state relative-caret-position="409">
+          <caret line="206" column="12" selection-start-line="206" selection-start-column="12" selection-end-line="206" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#span#0;n#span#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#main#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
           </folding>
         </state>
       </provider>
