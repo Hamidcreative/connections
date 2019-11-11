@@ -18,6 +18,8 @@ def remaining_time(value, arg=None):
 
 @register.filter
 def active_route(request, path):
+    print(request.path)
+    print(path)
     if path in request.path:
         return 'active'
     return ''
