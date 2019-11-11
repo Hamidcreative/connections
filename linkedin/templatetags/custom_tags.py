@@ -15,8 +15,9 @@ def remaining_time(value, arg=None):
 
     return  "10 Days"
 
-@register.inclusion_tag('base.html', takes_context=True)
-def current_page(context):
-    request = context['request']
-    path = request.get_full_path
-    return   path
+
+@register.filter
+def active_route(request, path):
+    if path in request.path:
+        return 'active'
+    return ''
