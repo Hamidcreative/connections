@@ -15,7 +15,8 @@ def remaining_time(value, arg=None):
 
     return  "10 Days"
 
-@register.filter
-def current_page(request):
-
-    return  request.get_full_path
+@register.inclusion_tag('base.html', takes_context=True)
+def current_page(context):
+    request = context['request']
+    path = request.get_full_path
+    return   path
