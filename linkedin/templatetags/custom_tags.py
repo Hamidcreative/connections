@@ -14,3 +14,8 @@ def remaining_time(value, arg=None):
     # diff = someday - today
 
     return  "10 Days"
+
+@register.filter
+def current_page(request):
+
+    return  request.get_full_path
